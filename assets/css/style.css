@@ -104,3 +104,43 @@ header nav ul li a {
   display: flex;
   gap: 12px;
 }
+
+.content {
+  width: 410px;
+  margin-top: 112px;
+}
+
+.content h3 {
+  font-size: 18px;
+  color: #3a3934;
+  opacity: 50%;
+  font-weight: 300;
+}
+
+.content h1 {
+  font-size: 96px;
+  font-weight: 700;
+  color: #3a3934;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #3a3934;
+  line-height: 21.09px;
+  margin-top: 45px;
+}
+
+.content button {
+  width: 172px;
+  height: 50px;
+  background: #3a3934;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-top: 50px;
+  border: none;
+  color: #ffffff;
+
+  outline: none;
+  font-size: 18px;
+}
