@@ -12,3 +12,32 @@ main {
   display: flex;
   height: 100vh;
 }
+.leftside {
+  width: 645px;
+  background: radial-gradient(
+    99.46% 89.69% at 117.29% 112.19%,
+    #f8c35b 0%,
+    #fde591 100%
+  );
+  padding-left: 150px;
+  padding-top: 29px;
+}
+
+.logo span {
+  font-size: 32px;
+  font-weight: 700;
+  color: #3a3934;
+  position: relative;
+  z-index: 2;
+}
+
+.logo span::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 2px solid #3a3934;
+  position: absolute;
+  opacity: 0.2;
+  left: -18px;
+  top: -6px;
+}
