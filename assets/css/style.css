@@ -66,3 +66,41 @@ main {
   position: absolute;
   right: -274px;
 }
+
+.rightside {
+  background-image: url(../images/bg_element.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 44px;
+  flex: 1;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #3a3934;
+}
+
+.social-icons {
+  margin-left: 41px;
+  display: flex;
+  gap: 12px;
+}
