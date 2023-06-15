@@ -11,7 +11,9 @@ body {
 main {
   display: flex;
   height: 100vh;
+  overflow: hidden;
 }
+
 .leftside {
   width: 645px;
   background: radial-gradient(
@@ -37,7 +39,30 @@ main {
   height: 60px;
   border: 2px solid #3a3934;
   position: absolute;
-  opacity: 0.2;
   left: -18px;
   top: -6px;
+  opacity: 0.2;
+}
+
+.abajurImages {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.images .l1 {
+  width: 270px;
+}
+
+.images .l2 {
+  width: 226px;
+  position: absolute;
+  right: -274px;
 }
